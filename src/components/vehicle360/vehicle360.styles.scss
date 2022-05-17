@@ -1,0 +1,97 @@
+
+    
+        .vehicle360ContentContainer{        
+            margin-top: 20px;
+            align-self: flex-end;
+            width: 90%;
+            background-color: rgba($color: white, $alpha: 0.75); 
+           
+            h1{
+                padding: 10px;
+                text-align: left;
+            }
+            h2{
+                padding: 10px 10px 0px 10px;
+            }
+            span{
+                padding: 10px;
+            }
+            .picture{
+                position: relative;
+                padding-bottom: 20px;
+                cursor: pointer;        
+                max-width: 100%;
+                -webkit-user-select: none;
+                -khtml-user-select: none;
+                -moz-user-select: none;
+                -o-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                -webkit-user-drag: none;
+                -khtml-user-drag: none;
+                -moz-user-drag: none;
+                -o-user-drag: none;
+                -ms-user-drag: none;
+            }
+            .show{
+                display: block;
+            }
+            .hide{
+                display: none;
+            }
+            
+            .pictureContainer{
+                position: relative;
+               
+                .fullscreenBtn{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    .magnifyingGlassIcon{
+                        position: relative;
+                        padding: 0;
+                        width: 15px;
+                        }
+                }
+               
+    
+    
+            }
+            .fullscreenBackground{
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100vw;
+                height:100vh;
+                background-color: rgba($color: white, $alpha: 1); 
+                z-index: 10;
+                display: flex;
+                
+                .picture{
+                    position: relative;
+                    align-self: center;
+                    justify-self: center;
+                    padding-bottom: 50px;
+                    max-width: 100%;
+                    height: auto;
+                }
+    
+    
+                .closefullscreenBtn{
+                position: absolute;
+                right:0;
+            }
+            }
+            
+        }
+    @media (min-width: 1200px){
+        .vehicle360Container{
+            background-image: url('../../../dist/img/homeBackgounds/javelin-desktop.jpg');
+        }
+        .btn{
+            display: none;
+        }
+        .picture{
+            padding-left: 100px;
+        }
+    }

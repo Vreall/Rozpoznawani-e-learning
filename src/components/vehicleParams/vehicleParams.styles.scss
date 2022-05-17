@@ -1,0 +1,78 @@
+    .vehicleParamsTitle{        
+        padding: 10px;
+        text-align: left;
+        height: -moz-fit-content;
+        height: fit-content;
+        max-width: 100%;
+    }
+    .vehicleParamsImg{
+        max-width: 100%;
+        padding: 10px 0;
+        overflow: hidden;
+    }
+    .vehicleParamsContent{
+        font-size: 20px;
+        ul{           
+            padding: 10px 10px;
+            font-family: 'Oswald', sans-serif;
+            text-transform: uppercase;
+            word-spacing: 2px;
+            
+            li{
+                font-family: 'Roboto', sans-serif;
+                padding: 0;
+                margin-left: 30px;
+                // text-indent: 40px;
+                // list-style-type: none;
+                font-weight: 300;
+            }p{
+                span{
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 300;
+                    white-space:nowrap;
+                    
+                }
+            }
+        }
+    }
+
+
+@media (min-width: 1200px){
+        .container{
+            .vehicleParamsContentContainer{
+                align-content: flex-start;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: auto;
+                grid-template-areas: 
+                  "title title"
+                  "image text";
+                min-height: 1000px;
+            .vehicleParamsTitle{   
+                grid-area: title;  
+                padding-bottom: 200px;   
+            }
+            .vehicleParamsImg{
+                grid-area: image;
+                justify-self: center;
+                width: 80%;
+            }
+            .vehicleParamsContent{
+                grid-area: text;
+                font-size: 30px;
+            }
+
+
+
+        }
+        
+    }
+    
+    }
+    
+
+
+
+
+
+// }

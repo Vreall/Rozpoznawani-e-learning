@@ -1,0 +1,50 @@
+
+    .vehicleNightVisionContentContainer{
+        margin-top: 20px;
+        .vehicleNightVisionTitle{        
+            padding: 10px;
+            text-align: left;
+        }
+        h2{
+            padding: 10px;
+            
+        }
+
+
+        .vehicleNightVisionContent{
+            
+                .vehicleNightVisionPicture{
+                    margin: 10px;
+                    width: 100%;
+                }
+            }
+            
+}
+    
+@media (min-width: 1200px){
+    .btn{
+      display: none;
+     }
+        h2{
+            margin-top: 40px;
+            font-size: 30px;
+        }
+       
+        .vehicleNightVisionContentContainer{
+            
+            height: 1000px;
+          
+            .vehicleNightVisionContent{
+                display: flex;
+                
+               
+                .imgContainer{
+                    display: flex;
+                    flex-direction: row;
+                    width:100%;
+    
+                }
+
+            }
+        }
+     }

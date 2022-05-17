@@ -1,0 +1,42 @@
+[
+	{
+		"img": "bwp1",
+		"name": "Bojowe Wozy Piechoty",
+		"directory": "bojowe wozy piechoty/bwp1/1"
+	},
+	{
+		"img": "bmd3",
+		"name": "Bojowe Wozy Desantu",
+		"directory": "bojowe wozy desantu/bmd1/1"
+	},
+	{
+		"img": "btr80",
+		"name": "Transportery Opancerzone",
+		"directory": "transportery opancerzone/btr80/1"
+	},
+	{
+		"img": "t90ms",
+		"name": "Czołgi",
+		"directory": "czolgi/t72/1"
+	},
+	{
+		"img": "2s1gozdzik",
+		"name": "Działa samobieżne",
+		"directory": "dziala samobiezne/2s1/1"
+	},
+	{
+		"img": "bm27uragan",
+		"name": "Samobieżne Wyrzutnie Rakietowe",
+		"directory": "samobiezne wyrzutnie rakietowe/bm21/1"
+	},
+	{
+		"img": "s300",
+		"name": "Systemy Antybalistyczne",
+		"directory": "systemy antybalistyczne/s300/1"
+	},
+	{
+		"img": "gaz2330",
+		"name": "Inne Pojazdy",
+		"directory": "inne pojazdy/mtlb/1"
+	}
+]

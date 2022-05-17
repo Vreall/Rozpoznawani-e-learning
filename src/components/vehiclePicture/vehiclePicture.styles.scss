@@ -1,0 +1,40 @@
+
+        h1,h2{
+            padding: 10px;
+            text-align: left;
+        }
+       
+        .vehiclePicture{
+            position: relative;
+            padding: 50px 0;
+            max-width: 100%;
+           
+            
+        }
+@media (min-width: 1200px){
+        .vehiclePictureContentContainer{
+            height: 1000px;
+            h2{
+                margin-top: 50px;
+                font-size: 30px;
+            }
+            div{
+                display: flex;
+                margin:0px auto ;
+                max-height: 80%;
+
+
+                .vehiclePicture{
+                    margin:0 auto;
+                    min-width: 50vw;
+                   
+                     
+                 }
+            }
+           
+           .fullscreenBtn{
+            display: none;
+           }
+        }
+    }
+
