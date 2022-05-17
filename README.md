@@ -1,4 +1,4 @@
-Jest to kurs e-learningowy wykonany w React. Projekt zawiera komponent umożliwiający obracanie modeli pojazdów bojowych w 360 stopniach (rozwiązanie przygotowane w całości samodzielnie). Kofiguracja webpacka za pomocą createapp.dev + samodzielna konfiguracja.
+Jest to kurs e-learningowy wykonany w React. Projekt zawiera komponent umożliwiający obracanie modeli pojazdów bojowych w 360 stopniach (rozwiązanie przygotowane w całości samodzielnie). Kofiguracja webpacka za pomocą createapp.dev + samodzielna konfiguracja. 
 
 ## Building and running on localhost
 
